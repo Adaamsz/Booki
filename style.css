@@ -248,6 +248,13 @@ nav a:hover {
     box-shadow: 0 0 20px #0000002e;
 }
 
+.hebergement-titre {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .marseille {
     box-sizing: content-box;
     background-color: #F2F2F2;
@@ -259,7 +266,7 @@ nav a:hover {
 
 .populaire {
     display: flex;
-    position: relative;
+    flex-direction: column;
     border-radius: 20px;
     box-sizing: content-box;
     background-color: #F2F2F2;
@@ -357,10 +364,7 @@ nav a:hover {
 }
 
 .populaire .etoile-icone {
-    position: absolute;
-    top: 21px;
-    right: 31px;
-    font-size: 1.7em;
+
 }
 
 
